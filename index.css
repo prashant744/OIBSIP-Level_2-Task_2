@@ -1,0 +1,69 @@
+body{
+    background-color: whitesmoke;
+    margin: 10%;
+    margin-bottom: 0;
+}
+
+
+#title {
+    text-align: center;
+    text-shadow: 5px 5px 10px white;
+    font-size: 7vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#quote{
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+}
+
+#caption-text{
+    margin: 10px;
+    text-align: center;
+}
+
+#caption {
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+#tribute-data {
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 11px;
+    margin-top: 50px;
+}
+
+h1.title-elon {
+    font-size: 35px;
+    color: orange;
+    text-align: center;
+    text-shadow: 5px 15px 15px orange;
+}
+footer {
+    background: linear-gradient(-45deg, rgb(223, 245, 253), rgb(255, 240, 107), rgb(206, 255, 250), rgb(218, 165, 32)) 0% 0% / 400% 400%;
+    animation: 20s ease 0s infinite normal none running Gradient;
+    animation: Gradient 20s ease infinite;
+    height: 70px;
+}
+footer{
+    margin-top: 20px;     
+}
+.footer{
+
+    display:  flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+
+}
+.footer p{
+    margin: 0 10px;
+    color: rgb(63, 63, 63);;
+    font-size: 16px;
+}
